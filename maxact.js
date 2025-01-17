@@ -541,7 +541,8 @@ function getMostFrequentHabitDetails(category) {
 
                         <label for="VilketKosttillskott">VilketKosttillskott:</label>
                         <input type="text" id="VilketKosttillskott" name="Vilket Kosttillskott" placeholder="Vilken typ av kosttillskott" required>
-                        
+                    </selcet>
+                    
                         <label for="Kosttillskott">Kosttillskott:</label>
                         <input type="text" id="Kosttillskott" name="Gram kosttillskott" placeholder="Antal gram kosttillskott" required>
                     `;

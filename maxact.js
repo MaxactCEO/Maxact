@@ -538,6 +538,10 @@ function getMostFrequentHabitDetails(category) {
                   `;
                 } else if (selectedCategory === "Kosttillskott") {
                     dynamicFieldsContainer.innerHTML = `
+
+                        <label for="VilketKosttillskott">VilketKosttillskott:</label>
+                        <input type="text" id="VilketKosttillskott" name="Vilket Kosttillskott" placeholder="Vilken typ av kosttillskott" required>
+                        
                         <label for="Kosttillskott">Kosttillskott:</label>
                         <input type="text" id="Kosttillskott" name="Gram kosttillskott" placeholder="Antal gram kosttillskott" required>
                     `;
